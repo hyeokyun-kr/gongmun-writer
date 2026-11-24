@@ -4,6 +4,8 @@
 
 HTML 파일 하나다. 설치가 필요 없고 파일은 컴퓨터 밖으로 나가지 않는다.
 
+**데모:** [hyeokyun-kr.github.io/gongmun-writer/dist/gongmun-writer.html](https://hyeokyun-kr.github.io/gongmun-writer/dist/gongmun-writer.html) — 브라우저에서 바로 쓴다. 시험용 가짜 공문은 [`tests/fixtures/`](tests/fixtures)에 있다.
+
 상태: 1.0으로 실제 사용 중. 이 공개판은 로펌, 변호사, 모든 사건 문서를 가짜로 바꿨다(「법무법인 예시」, 가짜 이름, `example.com` 메일).
 
 English: [README.md](README.md)
@@ -60,7 +62,7 @@ flowchart LR
 
 ## 시작하기
 
-`dist/gongmun-writer.html`을 Chrome이나 Edge로 연다. 시험해 볼 공문은 `tests/fixtures/`(requests, opinion, extension)에 있다(모두 가짜).
+`dist/gongmun-writer.html`을 Chrome이나 Edge로 열거나 [데모](https://hyeokyun-kr.github.io/gongmun-writer/dist/gongmun-writer.html)를 쓴다. 시험해 볼 공문은 `tests/fixtures/`(requests, opinion, extension)에 있다(모두 가짜).
 
 소스나 로펌 설정을 바꾼 뒤 다시 만들기:
 

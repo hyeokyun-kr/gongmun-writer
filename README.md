@@ -4,6 +4,8 @@ An offline browser app that turns a letter received from a Korean regulator into
 
 It is one HTML file. Nothing is installed and no file leaves the computer.
 
+**Demo:** [hyeokyun-kr.github.io/gongmun-writer/dist/gongmun-writer.html](https://hyeokyun-kr.github.io/gongmun-writer/dist/gongmun-writer.html) — runs in the browser; try it with the fictitious letters in [`tests/fixtures/`](tests/fixtures).
+
 Status: in use as version 1.0. This public copy replaces the firm, its lawyers and every case document with fictitious ones (「법무법인 예시」, fake names, `example.com` addresses).
 
 한국어: [README.ko.md](README.ko.md)
@@ -60,7 +62,7 @@ The page's Content Security Policy blocks all network access; the tests check th
 
 ## Getting started
 
-Open `dist/gongmun-writer.html` in Chrome or Edge. To try it, use the fictitious letters in `tests/fixtures/` (requests, opinion, extension).
+Open `dist/gongmun-writer.html` in Chrome or Edge, or use the [demo](https://hyeokyun-kr.github.io/gongmun-writer/dist/gongmun-writer.html). To try it, use the fictitious letters in `tests/fixtures/` (requests, opinion, extension).
 
 To rebuild after changing the source or the firm profile:
 
